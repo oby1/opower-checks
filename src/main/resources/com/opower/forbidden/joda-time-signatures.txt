@@ -1,0 +1,52 @@
+@defaultMessage Found dependency on system default time zone
+org.joda.time.DateTime#<init>()
+org.joda.time.DateTime#<init>(long)
+org.joda.time.DateTime#<init>(int, int, int, int, int)
+org.joda.time.DateTime#<init>(int, int, int, int, int, int)
+org.joda.time.DateTime#<init>(int, int, int, int, int, int, int)
+org.joda.time.DateTime#now()
+
+org.joda.time.DateTimeZone#getDefault()
+
+org.joda.time.LocalDate#<init>()
+org.joda.time.LocalDate#<init>(long)
+org.joda.time.LocalDate#now()
+org.joda.time.LocalDate#toDateTime(org.joda.time.LocalTime)
+org.joda.time.LocalDate#toDateTimeAtStartOfDay()
+org.joda.time.LocalDate#toInterval()
+
+org.joda.time.LocalDateTime#<init>()
+org.joda.time.LocalDateTime#<init>(long)
+org.joda.time.LocalDateTime#now()
+org.joda.time.LocalDateTime#toDateTime()
+
+org.joda.time.Interval#<init>(long, long)
+
+org.joda.time.YearMonth#<init>()
+org.joda.time.YearMonth#<init>(long)
+org.joda.time.YearMonth#now()
+org.joda.time.YearMonth#toInterval()
+
+@defaultMessage DateMidnight is deprecated
+org.joda.time.DateMidnight#<init>()
+org.joda.time.DateMidnight#<init>(org.joda.time.Chronology)
+org.joda.time.DateMidnight#<init>(org.joda.time.DateTimeZone)
+org.joda.time.DateMidnight#<init>(int, int, int)
+org.joda.time.DateMidnight#<init>(int, int, int, org.joda.time.Chronology)
+org.joda.time.DateMidnight#<init>(int, int, int, org.joda.time.DateTimeZone)
+org.joda.time.DateMidnight#<init>(long)
+org.joda.time.DateMidnight#<init>(long, org.joda.time.Chronology)
+org.joda.time.DateMidnight#<init>(long, org.joda.time.DateTimeZone)
+org.joda.time.DateMidnight#<init>(java.lang.Object)
+org.joda.time.DateMidnight#<init>(java.lang.Object, org.joda.time.Chronology)
+org.joda.time.DateMidnight#<init>(java.lang.Object, org.joda.time.DateTimeZone)
+org.joda.time.DateMidnight#now()
+org.joda.time.DateMidnight#now(org.joda.time.Chronology)
+org.joda.time.DateMidnight#now(org.joda.time.DateTimeZone)
+org.joda.time.DateMidnight#parse(java.lang.String)
+org.joda.time.DateMidnight#parse(java.lang.String, org.joda.time.format.DateTimeFormatter)
+
+org.joda.time.DateTime#toDateMidnight()
+
+org.joda.time.LocalDate#toDateMidnight()
+org.joda.time.LocalDate#toDateMidnight(org.joda.time.DateTimeZone)
